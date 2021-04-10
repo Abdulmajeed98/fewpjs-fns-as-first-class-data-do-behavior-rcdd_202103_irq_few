@@ -13,11 +13,11 @@ function handleClick(e) {
 function greet(timeString){
   let timeSplited = timeString.split(':');
   let timeNumber = parseInt(timeSplited[0]);
-  if (timeNumber < 12)
-    return 'Good Morning';
+  if (timeNumber < 12){
+    return 'Good Morning';}
 
-  else if (timeNumber >= 12 && <= 5)
-    return 'Good Afternoon';
+  else if (timeNumber >= 12 && <= 5){
+    return 'Good Afternoon';}
 
   else if (timeNumber > 5){return 'Good Evening';}
 }
