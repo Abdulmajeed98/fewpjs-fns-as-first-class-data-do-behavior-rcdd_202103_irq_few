@@ -24,3 +24,7 @@ function greet(timeString){
   }
 }
 /* Write your implementation of displayMessage() */
+function displayMessage(greet){
+  const greeting = document.getElementById('greeting');
+  greeting.innerHTML = greet;
+}
